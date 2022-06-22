@@ -1,0 +1,79 @@
+@import url('https://v1.fontapi.ir/css/Vazir');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Vazir', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    min-width: 30%;
+    margin: 0;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 16px;
+}
+
+.seconde-title,
+th,
+td {
+    text-align: center !important;
+    font-size: 13px;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.title {
+    font-weight: 900;
+}
+
+.end {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+span {
+    padding: 3px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0px;
+}
+
+td,
+th {
+    text-align: left;
+    padding: 8px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
